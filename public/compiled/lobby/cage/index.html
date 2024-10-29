@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="assets/images/tykhe.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+        
+        <title>Cage Desktop App</title>
+        <link href="main.css" rel="stylesheet" />
+        <script type="text/javascript">
+            window.REACT_APP_GAME_NAME="cage",
+            window.REACT_APP_GAME_VERSION="23.10.5"
+
+            window.REACT_APP_API_ORIGIN="http://localhost:5000"
+            window.REACT_APP_WS_HOST="localhost:5000"
+
+            window.REACT_APP_PATH_INITIAL_DATA = "/api/roulette/getInitialData"
+            window.REACT_APP_API_PATH_AUTHENTICATE="/api/roulette/authenticate"
+
+            window.REACT_APP_WS_PATH="/lobby/wsclient/cage"
+        </script>
+    </head>
+    <body>
+        <div id="app">
+            <div id="root"></div>
+        </div>
+        <script src="cage-bundle.js"></script>
+    </body>
+</html>

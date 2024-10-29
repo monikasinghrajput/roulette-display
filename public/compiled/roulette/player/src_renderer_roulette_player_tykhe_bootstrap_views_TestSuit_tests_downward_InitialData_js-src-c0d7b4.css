@@ -1,0 +1,248 @@
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./src/renderer/roulette/player/tykhe/bootstrap/views/TestSuit/tests/utils/navItem/navItem.module.css ***!
+  \**********************************************************************************************************************************************************************************/
+.yowDciU0Wo9JI3XUB9jR {
+    padding: 0.8rem 1.25rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .yowDciU0Wo9JI3XUB9jR:hover {
+    background-color: #1e3a8a;
+  }
+  
+  .vjJBErSTU95b8K9HEuAz {
+    color: #dbeafe;
+    background-color: #1e3a8a;
+  }
+  
+  .cTfOTHqHsbT8op8FWE9T {
+    color: #fff;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+  }
+  
+  .BmQckTxQVAHNIUZakPIZ {
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  
+  .uGCcdgoMoKRHFWWK1GVR {
+    width: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+  
+  .asMCcjOkhRC0bEsh0TnQ {
+    color: #d1d5db;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: auto;
+    transition: all 0.25s;
+  }
+  
+  .YdQTzWV3ogZCHmA9960d {
+    transform: rotate(180deg);
+  }
+  
+  .l8QvtSa1s8uPLQwOVE_N {
+    background-color: hsl(226, 71%, 36%);
+  }
+/*!*****************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./src/renderer/roulette/player/tykhe/bootstrap/views/TestSuit/tests/form.module.css ***!
+  \*****************************************************************************************************************************************************************/
+.hWFaIg0d3AphA7lc4L7A, .juiRFvKBKaxa6uFjwsAk, .yfQOkWhqbnqbYnPZ1wmD, .LiLhsJoHKiv833fajbv8, .opSKgjNyHTdfs9uC1VUk, .stBm9q4dy3GVwFk7tP49 {
+    margin: 1.5rem 0 1rem 0;
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1.2;
+    color: inherit;
+}
+
+.opSKgjNyHTdfs9uC1VUk {
+    font-size: 1.25rem;
+}
+
+.BEicqzkn0W07rbT3pkkG {
+    padding-left: 62px;
+}
+
+.BEicqzkn0W07rbT3pkkG {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100%;
+    padding-top: 82px;
+    transition: padding-left 0.2s;
+}
+
+.eJWhZJIK26H1Fnkow02a {
+    padding: 30px 36px;
+    flex: 1 1 auto;
+}
+
+.TGZMIGQFNL6v4vWQujHH {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -1rem;
+    margin-left: -1rem;
+    margin-top: -1rem;
+}
+
+.gYVxslUN8na2bujYpBWn {
+    width: 100%;
+}
+
+.A0fg0phf_fzub8z7xYRD {
+    background: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 40px rgb(41 50 65 / 6%);
+    -moz-border-radius: 24px;
+    -webkit-border-radius: 24px;
+    border-radius: 24px;
+    margin-bottom: 2rem;
+}
+
+.wweX92_oungEx2WXeZFr.TGZMIGQFNL6v4vWQujHH, .wjE4r5CpCMY0vGHrj56d.TGZMIGQFNL6v4vWQujHH {
+    margin-top: 0;
+}
+
+.wweX92_oungEx2WXeZFr {
+    margin-bottom: 1rem;
+}
+
+.TGZMIGQFNL6v4vWQujHH {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.5rem;
+    margin-left: -0.5rem;
+    margin-top: -0.5rem;
+}
+
+
+.kc9TpjEc1lG26azk8CiI {
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.Tt9oTe0gwv7t_0jjQg67 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    color: #69707A;
+    background: #ffffff;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid #D4D6D9;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+    appearance: none;
+    border-radius: 6px;
+}
+
+.QEOyEzmRUWPN7XZGYNpX .Tt9oTe0gwv7t_0jjQg67 {
+    background-color: #FCFCFC;
+}
+
+.Fn83BMveGrZudNz5tSQc {
+    margin: 0;
+    display: inline-flex;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    align-items: center;
+    vertical-align: bottom;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.Fn83BMveGrZudNz5tSQc {
+    color: #FFFFFF;
+    background: #464DF2;
+    border: 1px solid #464DF2;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+    border-radius: 6px;
+}
+
+.Fn83BMveGrZudNz5tSQc {
+    text-decoration: none;
+    color: #4f8eec;
+    color: var(--primary-color);
+}
+
+
+.w2x4dh_NMRgjaqNaH2Mk {
+    background: #ffffff;
+    border: 1px solid #D4D6D9;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+    border-radius: 6px;
+}
+
+
+.w2x4dh_NMRgjaqNaH2Mk {
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+
+.QEOyEzmRUWPN7XZGYNpX .w2x4dh_NMRgjaqNaH2Mk {
+    background: #FCFCFC;
+}
+
+.lsqnt82ciExA7zX1x8TM .w2x4dh_NMRgjaqNaH2Mk {
+    display: flex;
+}
+
+.HqXcVE8jkn4aj2vk3IF1 {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    flex: 1 1 auto;
+    width: 1%;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.w2x4dh_NMRgjaqNaH2Mk .HqXcVE8jkn4aj2vk3IF1 {
+    background: transparent;
+    border: 0 none;
+}
+
+.QEOyEzmRUWPN7XZGYNpX .Tt9oTe0gwv7t_0jjQg67 {
+    background-color: #FCFCFC;
+}
+
+.lsqnt82ciExA7zX1x8TM .w2x4dh_NMRgjaqNaH2Mk .HqXcVE8jkn4aj2vk3IF1 {
+    width: 1%;
+}
+
+.vSNLHBtlg602mVSV2Led {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.w2x4dh_NMRgjaqNaH2Mk .vSNLHBtlg602mVSV2Led {
+    background: transparent;
+    color: #83888F;
+    width: 2.357rem;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.xy8ZpCTnekM9SCwcjOw4 {
+    padding: 0.5rem 0.5rem;
+  }
+
+
+

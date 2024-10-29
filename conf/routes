@@ -1,0 +1,40 @@
+# Assets Requests
+GET     /assets/*file                            controllers.AppController.versioned(path="/public", file: Asset)
+
+
+# Game Server
+GET     /                                        controllers.Default.redirect(to = "/lobby")
+GET     /lobby                                   controllers.AppController.sendLobbyPage()
+GET     /lobby/cage                              controllers.AppController.sendCageClientPage()
+
+# Web Socket
++ nocsrf
+GET     /lobby/wsclient/cage                     controllers.AppController.cage
+
+
+# Web Socket
++ nocsrf
+GET     /roulette/wsclient/player                controllers.roulette.RouletteSSeaterController.player
++ nocsrf
+GET     /roulette/wsclient/topper                controllers.roulette.RouletteSSeaterController.topper
++ nocsrf
+GET     /roulette/wsclient/admin                 controllers.roulette.RouletteSSeaterController.admin
+
+
+
+# Roulette Stadium Seater Table Service
+GET     /roulette/admin                          controllers.roulette.RouletteSSeaterController.sendAdminPage()
+GET     /roulette/topper                         controllers.roulette.RouletteSSeaterController.sendTopperPage()
+GET     /roulette/vtopper                        controllers.roulette.RouletteSSeaterController.sendVerticalTopperPage()
+GET     /roulette/player                         controllers.roulette.RouletteSSeaterController.sendPlayerPage()
+
+
+GET     /api/roulette/getInitialData             controllers.roulette.RouletteSSeaterController.sendInitialDataJson()
+GET     /api/roulette/authenticate               controllers.roulette.RouletteSSeaterController.sendAuthenticateJson()
+GET     /api/roulette/getStreams                 controllers.roulette.RouletteSSeaterController.sendStreamsJson()
+GET     /api/roulette/logs                       controllers.roulette.RouletteSSeaterController.sendLogsJson()
+
+POST    /api/roulette/message                    controllers.roulette.RouletteSSeaterController.handleWheelMsg()
+
+
+

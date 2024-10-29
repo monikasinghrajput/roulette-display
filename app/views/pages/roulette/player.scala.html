@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="assets/images/tykhe.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+
+    <title>Roulette Player</title>
+    <link rel="stylesheet" href="@routes.AppController.versioned("compiled/roulette/player/main.css")">
+    <script type="text/javascript">
+        window.REACT_APP_GAME_NAME="roulette-player",
+        window.REACT_APP_GAME_VERSION="23.09.30"
+
+        window.REACT_APP_PATH_INITIAL_DATA = "/api/roulette/getInitialData"
+        window.REACT_APP_PATH_FETCH_PAYOUTS = "/api/roulette/fetchPayouts"
+        window.REACT_APP_API_PATH_AUTHENTICATE="/api/roulette/authenticate"
+        window.REACT_APP_API_PATH_PAYOUT="/api/roulette/fetchPayouts"
+        window.REACT_APP_API_PATH_VIDEO_STREAM="/api/roulette/getStreams"
+        window.REACT_APP_API_PATH_ASSETS="/assets/CustomAssets/"
+
+        window.REACT_APP_WS_PATH="/roulette/wsclient/player"
+    </script>
+</head>
+<body>
+<div id="app">
+    <div id="root"></div>
+</div>
+<script src="@routes.AppController.versioned("compiled/roulette/player/player-bundle.js")"></script>
+
+</body>
+</html>
